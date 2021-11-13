@@ -1,0 +1,117 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: 'Mulish', 'Helvetica', sans-serif;
+    background-image: linear-gradient(to bottom right, #e6fcff, #ffedfe);
+    color: #333;
+    margin: 0;
+  }
+
+h1 {
+    font-family: 'DM Serif Display', 'Times', serif;
+    text-align: center;
+}
+
+h2 {
+  font-family: 'DM Serif Display', 'Times', serif;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.header-img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 20px;
+  }
+
+.header-img-source {
+    text-align: center;
+    font-size: smaller;
+    padding-bottom: 20px;
+}
+
+.intro {
+    text-align: left;
+    line-height: 30px;
+    width: 510px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+.container {
+    margin-top: 50px;
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.album-img {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+}
+
+.song-title {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+audio {
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: smaller;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background: #ffff;
+}
+
+a:link{
+    color: #64165A;
+  }
+  a:visited {
+    color: #3D3974;
+  }
+
+  a:hover {
+    color: #922083;
+  }
+
+@media screen and (max-width: 750px) {
+    .header-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .intro {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: left;
+    }
+
+    .container {
+        text-align: center;
+        display: block;
+    }
+
+    .album-img {
+        margin-top: 30px;
+        text-align: center;
+        display: block;
+    }
+  }
